@@ -46,7 +46,7 @@ function getNews(news){
 // Function to retreive news using Fetch API with Await//
 async function retreive(searchValueText=""){
 
-    article_area.innerHTML='<p class="load">News are Loading...</p>';
+    article_area.innerHTML='<p class="article-description">News are Loading...</p>';
     
     if(searchValueText!=""){
       url=`https://newsapi.org/v2/everything?q=${searchValueText}&apiKey=${apikey}`;
