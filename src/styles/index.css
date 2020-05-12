@@ -20,12 +20,12 @@
   --author-color:black;
 }
 
-body {
+body{
   background-color: var(--background-body-color);
 }
 
 /* CSS FOR HEADER AREA */
-.mainheading {
+.mainheading{
   color: var(--font-color);
   font-size: 31px;
   font-family: 'Trebuchet MS';
@@ -37,19 +37,19 @@ body {
   display: inline-block;
 }
 
-.toggletxt {
+.toggletxt{
   color: var(--font-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 16%;
   display: inline-block;
 }
 
-#toggle_action {
+#toggle_action{
   display: none;
 }
 
 /* CSS FOR ROUNDED SLIDE BARS */
-.switch {
+.switch{
   margin-top: 25px;
   position: relative;
   display: inline-block;
@@ -57,7 +57,7 @@ body {
   height: 34px;
 }
 
-.slider {
+.slider{
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -105,13 +105,13 @@ input:checked + .slider:before {
 }
 
 /* CSS FOR SEARCH BAR */
-.search-bar {
+.search-bar{
   margin-top: 4%;
   margin-left: 5%;
   margin-bottom: 70px;
 }
 
-#search {
+#search{
   width: 92%;
   height: 30px;
   background-color: var(--background-body-color);
@@ -125,7 +125,7 @@ input:checked + .slider:before {
 }
 
 /* CSSS FOR NEW AREA */
-#news-articles {
+#news-articles{
   margin-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,7 +134,7 @@ input:checked + .slider:before {
       flex-wrap: wrap;
 }
 
-.container {
+.container{
   max-width: 265px;
   border: black 10px solid;
   height: 530px;
@@ -146,7 +146,7 @@ input:checked + .slider:before {
   padding-right: 30px;
 }
 
-.article {
+.article{
   list-style-type: none;
   display: inline;
 }
@@ -160,19 +160,19 @@ input:checked + .slider:before {
   transition: all 0.3s;
 }
 
-.img_area {
+.img_area{
   width: 265px;
   height: 250px;
   background-color: var(--img-background);
 }
 
-.article-img {
+.article-img{
   margin-top: 20px;
   width: 265px;
   height: 205px;
 }
 
-.article-title {
+.article-title{
   background: none;
   font-family: sans-serif;
   overflow: hidden;
@@ -182,7 +182,7 @@ input:checked + .slider:before {
   -webkit-box-orient: vertical;
 }
 
-.article-description {
+.article-description{
   font-size: 25px;
   color: var(--font-color);
   background: none;
@@ -194,7 +194,7 @@ input:checked + .slider:before {
   font-family: sans-serif;
 }
 
-.article-author {
+.article-author{
   background: none;
   font-size: 25px;
   font-family: Trebuchet MS;
@@ -203,12 +203,12 @@ input:checked + .slider:before {
   text-align: right;
 }
 
-.article-link {
+.article-link{
   color: var(--font-color);
   text-decoration: none;
 }
 
-.not-found {
+.not-found{
   color: var(--font-color);
   font-family: sans-serif;
   font-size: 35px;
@@ -216,7 +216,7 @@ input:checked + .slider:before {
   list-style-type: none;
 }
 
-.article-description {
+.article-description{
   color: var(--font-color);
   font-family: sans-serif;
   font-size: 35px;
