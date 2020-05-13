@@ -171,6 +171,10 @@ input:checked + .slider:before {
   width: 265px;
   height: 205px;
 }
+.img{
+  width: 265px;
+  height: 205px;
+}
 
 .article-title{
   background: none;
