@@ -23,7 +23,7 @@ function getNews(news){
   if(news.totalResults>0){
     news.articles.forEach(ind=>{
       output+= 
-        ` <section class="container">
+          '<section class="container">
           <li class="article"><a class="article-link" href="${ind.url}" target="_blank">
           <div class="img_area">
           <img src="${ind.urlToImage}" class="article-img" alt="${ind.title}"></img>
@@ -33,8 +33,8 @@ function getNews(news){
           <span class="article-author">-${ind.author? ind.author: "Anon"}</span><br>
           </a>
           </li>
-          </section>
-        `;
+          </section>'
+        ;
     });
     article_area.innerHTML=output;
   }
