@@ -40,7 +40,7 @@ function getNews(news){
   }
   else
   { 
-    article_area.innerHTML='<li <h3 class="not-found">No article was found based on the search.</li>';
+    article_area.innerHTML='<li <h3><span class="not-found">No article was found based on the search.</span</li>';
   }
 };
 // Function to retreive news using Fetch API with Await//
