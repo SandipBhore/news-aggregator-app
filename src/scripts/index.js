@@ -25,7 +25,7 @@ function getNews(news){
       output+= 
           `<section class="container">
           <li class="article"><a class="article-link" href="${ind.url}" target="_blank">
-          <div class="img_area">
+          <div class="img">
           <img src="${ind.urlToImage}" class="article-img" alt="${ind.title}"></img>
           </div>
           <h2 class="article-title">${ind.title}</h2>
