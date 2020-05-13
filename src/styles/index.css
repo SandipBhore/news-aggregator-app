@@ -160,7 +160,7 @@ input:checked + .slider:before {
   transition: all 0.3s;
 }
 
-.img{
+.img-area{
   width: 265px;
   height: 250px;
   background-color: var(--img-background);
