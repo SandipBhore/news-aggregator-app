@@ -28,8 +28,8 @@ function getNews(news){
           <div class="img-area">
           <img src="${ind.urlToImage}" class="article-img" alt="${ind.title}"></img>
           </div>
+          <p style="color:#FEE715FF;" class="article-description">${ind.description || "Description not available"}</p> <br>
           <h2 class="article-title">${ind.title}</h2>
-          <p class="article-description">${ind.description || "Description not available"}</p> <br>
           <span class="article-author">-${ind.author? ind.author: "Anon"}</span><br>
           </a>
           </li>
