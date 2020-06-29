@@ -50,6 +50,8 @@ function getNews(news) {
 }
 // Function to retreive news using Fetch API with Await//
 async function retreive(searchValueText = "") {
+  console.log("in async function");
+  let url;
   article_area.innerHTML =
     '<p class="article-description">News are Loading...</p>';
 
