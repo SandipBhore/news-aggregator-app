@@ -5,6 +5,7 @@ document
 
 function toggle_func(e) {
   if (e.target.checked) {
+    console.log("toggle function");
     document.documentElement.setAttribute("data-theme", "lite");
     document.querySelector(".toggletxt").innerHTML = "Toggle to Dark Mode";
   } else {
@@ -49,6 +50,7 @@ function getNews(news) {
 }
 // Function to retreive news using Fetch API with Await//
 async function retreive(searchValueText = "") {
+  console.log("in async function");
   let url;
   article_area.innerHTML =
     '<p class="article-description">News are Loading...</p>';
